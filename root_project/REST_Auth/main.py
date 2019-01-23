@@ -14,6 +14,7 @@ REST_FRAMEWORK = {
         'rest_framework.filters.SearchFilter',
         'rest_framework.filters.OrderingFilter',
     ),
+    'DEFAULT_PAGINATION_CLASS': 'root_project.REST_Auth.pagination.StatusPagination',
     'SEARCH_PARAM': 'q',
     'ORDERING_PARAM': 'ordering',
 }

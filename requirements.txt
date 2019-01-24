@@ -1,5 +1,15 @@
+autopep8==1.4.3
+certifi==2018.11.29
+chardet==3.0.4
 Django==2.1.5
 django-filter==2.0.0
 djangorestframework==3.9.1
+djangorestframework-jwt==1.11.0
+idna==2.8
 Markdown==3.0.1
+Pillow==5.4.1
+pycodestyle==2.4.0
+PyJWT==1.7.1
 pytz==2018.9
+requests==2.21.0
+urllib3==1.24.1
